@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ustglobal.rapido.mapping.domain.model.businessentity.datasource.db.DBDataSourceDefinitionParserTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in com.ustglobal.rapido.mapping.domain.model.businessentity.datasource.db.DBDataSourceDefinitionParserTest

@@ -1,0 +1,17 @@
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/db/DBDataSourceDefinitionParserTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/db/DBDataSourceFactoryTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/BusinessEntityCreationServiceTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/EntityVersionGroupTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/infrastructure/service/FilePersistToLocalFsServiceTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/transformation/TransformPresetTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/cobol/CobolDataSourceFactoryTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/xsd/XSDFileDataSourceDefinitionParserTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/BusinessEntityUpdationServiceTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/DataFieldMappingTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/DataFieldDefinitionTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/EntityVersionGroupRepositoryTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/DataSourceFactoryProviderTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/transformation/TransformationTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/xsd/XSDDataSourceFactoryTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/xsd/XSDParserUtilTest.java
+/var/lib/jenkins/workspace/rapido-mapping-api/src/test/java/com/ustglobal/rapido/mapping/domain/model/businessentity/BusinessEntityTest.java

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+       <Properties>
+		    <Property name="LOG_PATTERN">
+		            %d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${hostName} --- [%15.15t] %-20.20X{rapidoCorrelationId} : %-40.40c{1.} : %m%n%ex
+	        </Property>            
+       </Properties>
+       <Appenders>
+             <Console name="Console-Appender" target="SYSTEM_OUT">
+                    <PatternLayout>
+                           <Pattern>${LOG_PATTERN}</Pattern>
+                    </PatternLayout>
+             </Console>
+			<!-- Rolling File Appender -->
+	        <RollingFile name="FileAppender" fileName="/var/log/containers/mapping-api.log" 
+	                    filePattern="/var/log/containers/mapping-api-%d{yyyy-MM-dd}-%i.log">
+	            <PatternLayout>
+	                <Pattern>${LOG_PATTERN}</Pattern>
+	            </PatternLayout>
+	            <Policies>
+	                <TimeBasedTriggeringPolicy interval="1" />
+	                <SizeBasedTriggeringPolicy size="10MB" />
+	            </Policies>
+	            <DefaultRolloverStrategy max="2"/>
+	        </RollingFile>
+       </Appenders>
+       <Loggers>
+             <Logger name="com.ustglobal.rapido" level="info" additivity="false">
+                    <AppenderRef ref="FileAppender" />
+                    <AppenderRef ref="Console-Appender" />
+             </Logger>
+             <Root level="info" >
+             	 <AppenderRef ref="FileAppender" />
+                 <AppenderRef ref="Console-Appender" />
+             </Root>
+       </Loggers> 
+</Configuration>

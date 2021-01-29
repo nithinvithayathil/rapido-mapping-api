@@ -1,0 +1,17 @@
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/DataFieldDefinitionTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/EntityVersionGroupRepositoryTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/db/DBDataSourceDefinitionParserTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/BusinessEntityCreationServiceTest.class
+com/ustglobal/rapido/mapping/infrastructure/service/FilePersistToLocalFsServiceTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/BusinessEntityUpdationServiceTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/cobol/CobolDataSourceFactoryTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/DataFieldMappingTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/transformation/TransformationTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/transformation/TransformPresetTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/EntityVersionGroupTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/db/DBDataSourceFactoryTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/xsd/XSDFileDataSourceDefinitionParserTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/xsd/XSDDataSourceFactoryTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/BusinessEntityTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/DataSourceFactoryProviderTest.class
+com/ustglobal/rapido/mapping/domain/model/businessentity/datasource/xsd/XSDParserUtilTest.class

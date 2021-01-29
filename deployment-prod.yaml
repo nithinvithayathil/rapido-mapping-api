@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rapido-mapping-api-deployment
+spec:
+  selector:
+    matchLabels:
+      app: rapido-mapping-api
+  replicas: 1
+  revisionHistoryLimit: 1
+  template:
+    metadata:
+      labels:
+        app: rapido-mapping-api
+    spec:
+      containers:
+      - name: rapido-mapping-api
+        image: ustabsreg.azurecr.io/rapido-mapping-api:latest
+        ports:
+        - containerPort: 7504
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: "prod"
+      imagePullSecrets:
+      - name: docker-reg-credentials
+      
+      
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rapido-mapping-api-service
+  labels:
+    run: rapido-mapping-api-service
+spec:
+  ports:
+  - port: 7504
+    protocol: TCP
+  selector:
+    app: rapido-mapping-api

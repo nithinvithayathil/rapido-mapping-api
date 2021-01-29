@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ustglobal.rapido.mapping.domain.model.businessentity.EntityVersionGroupRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 s - in com.ustglobal.rapido.mapping.domain.model.businessentity.EntityVersionGroupRepositoryTest

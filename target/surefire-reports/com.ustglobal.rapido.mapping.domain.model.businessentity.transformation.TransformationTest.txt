@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ustglobal.rapido.mapping.domain.model.businessentity.transformation.TransformationTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.ustglobal.rapido.mapping.domain.model.businessentity.transformation.TransformationTest
